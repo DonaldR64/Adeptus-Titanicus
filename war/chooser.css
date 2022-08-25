@@ -81,7 +81,7 @@ tr.mandatory > td {
 	color:black;
 }
 .orbat tbody {
-	border-top:dotted 1px silver;			
+	border-top:dotted 1px black;			
 }
 .points {
 	padding-left:0;	
@@ -94,7 +94,7 @@ tr.mandatory > td {
 //s	font-weight:normal;
 }
 #formationDivider {
-	border-bottom:1px dotted silver;
+	border-bottom:1px dotted black;
 }
 #controls a {
 	padding-right:1em;
