@@ -1,8 +1,8 @@
 {
 	"id":"Axiom Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":[""],
-	"by":"",
+	"notes":["Test"],
+	"by":"DR",
 	"sections":[
 		{"name":"Required Elements", "formations":[
 			{"id":501,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
@@ -15,7 +15,6 @@
 		]},
 		{"name":"Support Elements", "formations":[
 			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[]}
-
 		]}
 	],
 	"upgrades":[	
