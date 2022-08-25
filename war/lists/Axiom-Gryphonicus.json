@@ -6,15 +6,15 @@
 	"sections":[
 		{"name":"Required Elements", "formations":[
 			{"id":501,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
-			{"id":502,"name": "Reaver Titan","pts":250,"upgrades":[]},
-			{"id":503,"name": "Warhound Titan","pts":180,"upgrades":[]}
+			{"id":502,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]},
+			{"id":503,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46]}
 		]},
 		{"name":"Optional Elements", "formations":[
-			{"id":504,"name": "Reaver Titan","pts":250,"upgrades":[]},
-			{"id":505,"name": "Warhound Titan","pts":180,"upgrades":[]}
+			{"id":504,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]},
+			{"id":505,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46]}
 		]},
 		{"name":"Support Elements", "formations":[
-			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[]}
+			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46]}
 		]}
 	],
 	"upgrades":[	
@@ -29,7 +29,31 @@
 		{"id":8, "name":"Paired Gatling Blasters (Cara)","pts":30},
 		{"id":9, "name":"Paired Laser Blasters (Cara)","pts":50},
 		{"id":10, "name":"Paired Turbo Laser Destructors (Cara)","pts":35},
-		{"id":11, "name":"Vulcan Mega-Bolter Array (Cara)","pts":20}
+		{"id":11, "name":"Vulcan Mega-Bolter Array (Cara)","pts":20},
+
+		{"id":21, "name":"Gatling Blaster (Arm)","pts":15},
+		{"id":22, "name":"Laser Blaster (Arm)","pts":25},
+		{"id":23, "name":"Melta Cannon (Arm)","pts":35},
+		{"id":24, "name":"Titan Chainfist (Arm)","pts":20},
+		{"id":25, "name":"Titan Powerfist (Arm)","pts":20},
+		{"id":26, "name":"Volcano Cannon (Arm)","pts":25},
+
+		{"id":27, "name":"Apocalypse Missile Launcher (Cara)","pts":10},
+		{"id":28, "name":"Turbo Laser Destructor (Cara)","pts":20},
+		{"id":29, "name":"Vulcan Mega-Bolter (Cara)","pts":10},
+		{"id":30, "name":"Warp Missile Support Rack (Cara)","pts":10},
+		{"id":31, "name":"Volkite Eradicator (Cara)","pts":20},
+
+		{"id":41, "name":"Inferno Gun (Arm)","pts":20},
+		{"id":42, "name":"Plasma Blastgun (Arm)","pts":30},
+		{"id":43, "name":"Turbo Laser Destructor (Arm)","pts":20},
+		{"id":44, "name":"Vulcan Mega-Bolter (Arm)","pts":10},
+		{"id":45, "name":"Ursus Claws (Arm)","pts":10},
+		{"id":46, "name":"Volkite Eradicator (Arm)","pts":20}
+
+
+
+
 	],
 	"formationConstraints":[
 		{"min":1, "max": 1, "from":[501]},
@@ -41,6 +65,11 @@
 	],
 	"upgradeConstraints":[
 		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[501]},
-		{"min":1, "max":1, "from":[7,8,9,10,11], "appliesTo":[501]}
+		{"min":1, "max":1, "from":[7,8,9,10,11], "appliesTo":[501]},
+		{"min":2, "max":2, "from":[21,22,23,24,25,26], "appliesTo":[502,504]},
+		{"min":1, "max":1, "from":[27,28,29,30,31], "appliesTo":[502,504]},
+		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[503,505,510]}
+
+
 	]
 }
