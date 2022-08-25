@@ -1,7 +1,7 @@
 {
 	"id":"Axiom Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Test"],
+	"notes":["Might of the Omnisiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple."],
 	"by":"DR",
 	"sections":[
 		{"name":"Required Elements", "formations":[
@@ -49,18 +49,21 @@
 		{"id":43, "name":"Turbo Laser Destructor (Arm)","pts":20},
 		{"id":44, "name":"Vulcan Mega-Bolter (Arm)","pts":10},
 		{"id":45, "name":"Ursus Claws (Arm)","pts":10},
-		{"id":46, "name":"Volkite Eradicator (Arm)","pts":20}
+		{"id":46, "name":"Volkite Eradicator (Arm)","pts":20},
 
+		{"id":100, "name":"Enhanced Auspex Relays","pts":10},
+		{"id":101, "name":"Gravatus Plating","pts":20},
+		{"id":102, "name":"Motive Sub-Reactors","pts":25}
 
 
 
 	],
 	"formationConstraints":[
-		{"min":1, "max": 1, "from":[501]},
+		{"min":1, "max": 1, "from":[501,502]},
 		{"min":1, "max": 1, "from":[502]},
-		{"min":1, "max": 1, "from":[503]},
+		{"min":1, "max": 1, "from":[503,502]},
 		{"max": 1, "from":[504]},
-		{"max": 1, "from":[505]},
+		{"max": 1, "from":[505,502]},
 		{"max": 1, "from":[510]}
 	],
 	"upgradeConstraints":[
@@ -69,6 +72,8 @@
 		{"min":2, "max":2, "from":[21,22,23,24,25,26], "appliesTo":[502,504]},
 		{"min":1, "max":1, "from":[27,28,29,30,31], "appliesTo":[502,504]},
 		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[503,505,510]}
+		{"max":1, "from":[100], "appliesTo":[503,505,510]},
+		{"max":1, "from":[101,102], "appliesTo":[502,504]}
 
 
 	]
