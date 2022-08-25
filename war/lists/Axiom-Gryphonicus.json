@@ -4,14 +4,14 @@
 	"notes":["Might of the Omnisiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound."],
 	"by":"DR",
 	"sections":[
-		{"name":"Required Elements", "formations":[
+		{"name":"Required Elements (3 Titans)", "formations":[
 			{"id":501,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
 			{"id":502,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]},
 			{"id":503,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]},			
 			{"id":504,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46]},
 			{"id":505,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]}
 		]},
-		{"name":"Optional Elements", "formations":[
+		{"name":"Optional Elements (up to 2 Titans)", "formations":[
 			{"id":510,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]},
 			{"id":511,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46]},
 			{"id":512,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]}
@@ -62,8 +62,8 @@
 		{"min":1, "max": 1, "from":[501,502]},
 		{"min":1, "max": 1, "from":[503]},
 		{"min":1, "max": 1, "from":[504,505]},
-		{"max": 1, "from":[510]},
-		{"max": 1, "from":[511,512]}
+		{"max": 1, "min": 0, "from":[510]},
+		{"max": 1, "min": 0, "from":[511,512]}
 	],
 	"upgradeConstraints":[
 		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[501]},
