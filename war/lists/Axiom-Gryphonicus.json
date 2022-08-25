@@ -7,14 +7,14 @@
 		{"name":"Required Elements", "formations":[
 			{"id":501,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
 			{"id":502,"name": "Reaver Titan","pts":250,"upgrades":[]},
-			{"id":503,"name": "Warhound Titan","pts":180,"upgrades":[]},
+			{"id":503,"name": "Warhound Titan","pts":180,"upgrades":[]}
 		]},
 		{"name":"Optional Elements", "formations":[
 			{"id":504,"name": "Reaver Titan","pts":250,"upgrades":[]},
-			{"id":505,"name": "Warhound Titan","pts":180,"upgrades":[]},
+			{"id":505,"name": "Warhound Titan","pts":180,"upgrades":[]}
 		]},
 		{"name":"Support Elements", "formations":[
-			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[]},
+			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[]}
 
 		]}
 	],
@@ -31,7 +31,6 @@
 		{"id":9, "name":"Paired Laser Blasters (Cara)","pts":50},
 		{"id":10, "name":"Paired Turbo Laser Destructors (Cara)","pts":35},
 		{"id":11, "name":"Vulcan Mega-Bolter Array (Cara)","pts":20}
-
 	],
 	"formationConstraints":[
 		{"min":1, "max": 1, "from":[501]},
@@ -39,7 +38,6 @@
 		{"min":1, "max": 1, "from":[503]},
 		{"max": 1, "from":[504]},
 		{"max": 1, "from":[505]},
-
 		{"max": 1, "from":[510]}
 	],
 	"upgradeConstraints":[
