@@ -1,6 +1,6 @@
 /* GENERIC */
 body {
-	background-color:grey;
+	background-color:silver;
 	margin:0.2em 2em 2em 2em;
 }
 table {
@@ -81,7 +81,7 @@ tr.mandatory > td {
 	color:black;
 }
 .orbat tbody {
-	border-top:dotted 1px gray;			
+	border-top:dotted 1px silver;			
 }
 .points {
 	padding-left:0;	
@@ -94,7 +94,7 @@ tr.mandatory > td {
 //s	font-weight:normal;
 }
 #formationDivider {
-	border-bottom:1px dotted gray;
+	border-bottom:1px dotted silver;
 }
 #controls a {
 	padding-right:1em;
