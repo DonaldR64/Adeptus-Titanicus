@@ -69,7 +69,9 @@
 		{"max": 1, "min": 0, "from":[511]},
 		{"max": 1, "min": 0, "from":[504]},
 		{"max":3, "perArmy":true, "name":"for Demi", "from":[501,502,504]},
-		{"max":2, "perArmy":true, "name":"for Full", "from":[510,511]}
+		{"max":2, "perArmy":true, "name":"for Full", "from":[510,511]},
+      	{"maxPercent": 50, "name": "Gryphonicus Support Units", "from": [550,551,552,600]}
+
 	],
 	"upgradeConstraints":[
 		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[501,550]},
