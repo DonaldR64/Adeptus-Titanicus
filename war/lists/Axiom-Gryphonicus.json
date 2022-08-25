@@ -1,0 +1,49 @@
+{
+	"id":"Axiom Battleline - Legio Gryphonicus",
+	"version":"v1",
+	"notes":[""],
+	"by":"",
+	"sections":[
+		{"name":"Required Elements", "formations":[
+			{"id":501,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
+			{"id":502,"name": "Reaver Titan","pts":250,"upgrades":[]},
+			{"id":503,"name": "Warhound Titan","pts":180,"upgrades":[]},
+		]},
+		{"name":"Optional Elements", "formations":[
+			{"id":504,"name": "Reaver Titan","pts":250,"upgrades":[]},
+			{"id":505,"name": "Warhound Titan","pts":180,"upgrades":[]},
+		]},
+		{"name":"Support Elements", "formations":[
+			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[]},
+
+		]}
+	],
+	"upgrades":[	
+		{"id":1, "name":"Arioch Titan Power Claw (Arm)","pts":25},
+		{"id":2, "name":"Belicosa Volcano Cannon (Arm)","pts":55},
+		{"id":3, "name":"Macro-Gatling Blaster (Arm)","pts":30},
+		{"id":4, "name":"Mori Quake Cannon (Arm)","pts":20},
+		{"id":5, "name":"Sunfury Plasma Annihilator (Arm)","pts":45},
+		{"id":6, "name":"Volkite Destructor (Arm)","pts":40},
+
+		{"id":7, "name":"Apocalypse Missile Launchers (Cara)","pts":15},
+		{"id":8, "name":"Paired Gatling Blasters (Cara)","pts":30},
+		{"id":9, "name":"Paired Laser Blasters (Cara)","pts":50},
+		{"id":10, "name":"Paired Turbo Laser Destructors (Cara)","pts":35},
+		{"id":11, "name":"Vulcan Mega-Bolter Array (Cara)","pts":20},
+
+	],
+	"formationConstraints":[
+		{"min":1, "max": 1, "from":[501]},
+		{"min":1, "max": 1, "from":[502]},
+		{"min":1, "max": 1, "from":[503]},
+		{"max": 1, "from":[504]},
+		{"max": 1, "from":[505]},
+
+		{"max": 1, "from":[510]},
+	],
+	"upgradeConstraints":[
+		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[7,8,9,10,11], "appliesTo":[501]},
+	]
+}
