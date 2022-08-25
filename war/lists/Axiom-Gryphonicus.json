@@ -12,9 +12,6 @@
 		{"name":"Optional Elements", "formations":[
 			{"id":504,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31]},
 			{"id":505,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46]}
-		]},
-		{"name":"Support Elements", "formations":[
-			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46]}
 		]}
 	],
 	"upgrades":[	
@@ -63,16 +60,15 @@
 		{"min":1, "max": 1, "from":[502]},
 		{"min":1, "max": 1, "from":[503,502]},
 		{"max": 1, "from":[504]},
-		{"max": 1, "from":[505,502]},
-		{"max": 1, "from":[510]}
+		{"max": 1, "from":[505,502]}
 	],
 	"upgradeConstraints":[
 		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[501]},
 		{"min":1, "max":1, "from":[7,8,9,10,11], "appliesTo":[501]},
 		{"min":2, "max":2, "from":[21,22,23,24,25,26], "appliesTo":[502,504]},
 		{"min":1, "max":1, "from":[27,28,29,30,31], "appliesTo":[502,504]},
-		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[503,505,510]}
-		{"max":1, "from":[100], "appliesTo":[503,505,510]},
+		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[503,505]},
+		{"max":1, "from":[100], "appliesTo":[503,505]},
 		{"max":1, "from":[101,102], "appliesTo":[502,504]}
 
 
