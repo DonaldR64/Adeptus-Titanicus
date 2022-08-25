@@ -1,7 +1,7 @@
 {
 	"id":"Axiom Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Might of the Omnisiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple."],
+	"notes":["Might of the Omnisiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound."],
 	"by":"DR",
 	"sections":[
 		{"name":"Required Elements", "formations":[
