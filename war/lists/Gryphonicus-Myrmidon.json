@@ -1,7 +1,7 @@
 {
 	"id":"Myrmidon Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Overwhelming Firepower: When issuing a First Fire or Split Fire order to Titans from this maniple, the Command check will always succeed on a roll of 2+, regardless of modifiers."],
+	"notes":["Overwhelming Firepower: When issuing a First Fire or Split Fire order to Titans from this maniple, the Command check will always succeed on a roll of 2+, regardless of modifiers."],
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[

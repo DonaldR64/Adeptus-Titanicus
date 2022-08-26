@@ -1,7 +1,7 @@
 {
 	"id":"Axiom Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Might of the Omnissiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple."],
+	"notes":["Might of the Omnissiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple."],
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[

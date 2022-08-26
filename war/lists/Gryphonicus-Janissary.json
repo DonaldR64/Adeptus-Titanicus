@@ -1,7 +1,7 @@
 {
 	"id":"Janissary Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Close Support: If a Titan in this maniple activates during Movement, choose a Knight Banner within 6 inches which can activate next."],
+	"notes":["Close Support: If a Titan in this maniple activates during Movement, choose a Knight Banner within 6 inches which can activate immediately next."],
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[

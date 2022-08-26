@@ -1,7 +1,7 @@
 {
 	"id":"Corsair Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Fighting Withdrawal: Titans in this maniple can choose to move outside of their forward arc at their full movement rather than 2:1. Titans may not use their boosted speed when moving outside their Front Arc."],
+	"notes":["Fighting Withdrawal: Titans in this maniple can choose to move outside of their forward arc at their full movement rather than 2:1. Titans may not use their boosted speed when moving outside their Front Arc."],
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[
