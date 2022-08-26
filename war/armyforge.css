@@ -15,6 +15,16 @@ p {
 	text-align:center;
 	padding-top:2em;
 }
+
+#traits {
+	max-width:98%;
+	width:70em;
+	margin:auto;
+	text-align:center;
+	padding-top:2em;
+}
+
+
 table {
 	margin:auto;
 	border-collapse:collapse;
