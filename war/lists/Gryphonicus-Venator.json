@@ -1,7 +1,7 @@
 {
 	"id":"Venator Light - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Opportunistic Strike: If an enemy unit's shields are collapse by a Warhound Titan from this maniple, one Reaver Titan can immediately make an attack against it with one of its weapons."],
+	"notes":["Opportunistic Strike: If an enemy unit's shields are collapse by a Warhound Titan from this maniple, one Reaver Titan can immediately make an attack against it with one of its weapons."],
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[
@@ -76,8 +76,8 @@
 		{"min":1, "max":1, "from":[7,8,9,10,11], "appliesTo":[550]},
 		{"min":2, "max":2, "from":[21,22,23,24,25,26], "appliesTo":[501,511,551]},
 		{"min":1, "max":1, "from":[27,28,29,30,31], "appliesTo":[501,511,551]},
-		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[552]},
-		{"max":1, "from":[100], "appliesTo":[552]},
+		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[502,510,552]},
+		{"max":1, "from":[100], "appliesTo":[502,510,552]},
 		{"max":1, "from":[101,102], "appliesTo":[501,511,551]}
 
 	]

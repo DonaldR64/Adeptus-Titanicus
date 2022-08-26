@@ -1,7 +1,7 @@
 {
 	"id":"Lupercal Light - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Hunting Pack. Warhound Titans can be formed into a new Squadron each round."],
+	"notes":["Hunting Pack: At the beginning of each round, any or all of the Warhound Titans in the maniple can be formed into a Squadron for the round."],
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[
@@ -63,9 +63,9 @@
 	],
 	"formationConstraints":[
 		{"min": 0, "max": 3, "from":[502]},
-		{"max": 0, "min": 3, "from":[504]},		
+		{"min": 0, "max": 3, "from":[504]},		
 		{"min": 0, "max": 2, "from":[510]},
-		{"max": 2, "min": 0, "from":[511]},
+		{"min": 0, "max": 2, "from":[511]},
 		{"max":3, "perArmy":true, "name":"for Demi", "from":[502,504]},
 		{"max":2, "perArmy":true, "name":"for Full", "from":[510,511]},
       	{"maxPercent": 50, "name": "Gryphonicus Support Units", "from": [550,551,552,600]}

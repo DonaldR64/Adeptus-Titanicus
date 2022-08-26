@@ -1,7 +1,7 @@
 {
 	"id":"Regia Battleline - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Royal Court: The two Warlord Titans within this Maniple represent King and Queen. When within 12inches of each other, the other may gain the same order without the need to pass a Command Check. The Warhounds are the Courtiers, and can merge their void shields with the King and Queen as if they were part of the same squadron, within 3inches."],	
+	"notes":["Royal Court: The two Warlord Titans within this Maniple represent King and Queen. When within 12inches of each other, the other may gain the same order without the need to pass a Command Check. The Warhounds are the Courtiers, and can merge their void shields with the King and Queen as if they were part of the same squadron, within 3inches."],	
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[
@@ -65,7 +65,7 @@
 	"formationConstraints":[
 		{"min":0, "max": 2, "from":[501]},
 		{"min": 0, "max": 3, "from":[502]},
-		{"max": 1, "min": 1, "from":[504]},
+		{"max": 1, "min": 0, "from":[504]},
 		{"min": 0, "max": 2, "from":[510]},
 		{"max": 2, "min": 0, "from":[511]},
 		{"max":3, "perArmy":true, "name":"for Demi", "from":[501,502,504]},
