@@ -250,7 +250,6 @@ var ArmyforgeUI = {
 		}
 		// render notes
 		if (ArmyList.data.notes) {
-			$('notes').insert("Maniple Trait");
 			ArmyList.data.notes.each(function(note) {
 				$('notes').insert(note);
 				$('notes').insert(new Element('br'));
