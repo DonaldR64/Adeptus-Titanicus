@@ -250,18 +250,8 @@ var ArmyforgeUI = {
 		}
 		// render notes
 		if (ArmyList.data.notes) {
-			var idx = 0;
+			$('notes').insert("Maniple Trait");
 			ArmyList.data.notes.each(function(note) {
-				idx++;
-				if (idx == 1) {
-					$('notes').insert("Legion Trait: ");
-				}			
-				if (idx == 2) {
-					$('notes').insert("Legion Trait: ");
-				}							
-				if (idx == 3) {
-					$('notes').insert("Maniple Trait: ");
-				}
 				$('notes').insert(note);
 				$('notes').insert(new Element('br'));
 			});
