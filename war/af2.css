@@ -92,6 +92,12 @@ h1 {
   background-color: transparent;
 }
 
+.pic > img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
 .legio {
   grid-area: legio;
   background-color: transparent;
