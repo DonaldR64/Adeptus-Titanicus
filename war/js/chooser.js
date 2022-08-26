@@ -250,9 +250,18 @@ var ArmyforgeUI = {
 		}
 		// render notes
 		if (ArmyList.data.notes) {
-			var idx = 1;
-			ArmyList.data.notes.each(function(note) {			
-				$('notes').insert(new Element('sup').update(idx++));
+			var idx = 0;
+			ArmyList.data.notes.each(function(note) {
+				idx++;
+				if (idx == 1) {
+					$('notes').insert("Legion Trait: ");
+				}			
+				if (idx == 2) {
+					$('notes').insert("Legion Trait: ");
+				}							
+				if (idx == 3) {
+					$('notes').insert("Maniple Trait: ");
+				}
 				$('notes').insert(note);
 				$('notes').insert(new Element('br'));
 			});
@@ -491,4 +500,3 @@ var ArmyforgeUI = {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 document.on('dom:loaded', ArmyforgeUI.initPage );
-
