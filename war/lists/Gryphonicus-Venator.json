@@ -1,17 +1,16 @@
 {
-	"id":"Axiom Battleline - Legio Gryphonicus",
+	"id":"Venator Light - Legio Gryphonicus",
 	"version":"v1",
-	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Might of the Omnissiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple."],
+	"notes":["Lust for Glory: After deployment, each Titan can claim an enemy Titan as a target, gaining +1 to Hit and Damage. However, if another Titan attacks their target the bonuses no longer apply.","Mainstay of the Titan Legion: May select a Reaver in place of a Warlord or Warhound.","Opportunistic Strike: If an enemy unit's shields are collapse by a Warhound Titan from this maniple, one Reaver Titan can immediately make an attack against it with one of its weapons."],
 	"by":"DR",
 	"sections":[
 		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[
-			{"id":501,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
-			{"id":502,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31,101,102]},
-			{"id":504,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46,100]}
+			{"id":501,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31,101,102]},
+			{"id":502,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46,100]}
 		]},
 		{"name":"Full Maniple (pick up to 2 Titans)", "formations":[
-			{"id":510,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31,101,102]},
-			{"id":511,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46,100]}
+			{"id":510,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46,100]},
+			{"id":511,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31,101,102]}
 		]},
 		{"name":"Gryphonicus Support Units","formations":[
 			{"id":550,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11]},
@@ -63,24 +62,23 @@
 
 	],
 	"formationConstraints":[
-		{"min":0, "max": 1, "from":[501]},
-		{"min": 1, "max": 3, "from":[502]},
+		{"min":1, "max": 3, "from":[501]},
+		{"min": 0, "max": 2, "from":[502]},
 		{"min": 0, "max": 2, "from":[510]},
-		{"max": 1, "min": 0, "from":[511]},
-		{"max": 1, "min": 0, "from":[504]},
-		{"max":3, "perArmy":true, "name":"for Demi", "from":[501,502,504]},
+		{"min": 0, "max": 2, "from":[511]},
+		{"max":3, "perArmy":true, "name":"for Demi", "from":[501,502]},
 		{"max":2, "perArmy":true, "name":"for Full", "from":[510,511]},
       	{"maxPercent": 50, "name": "Gryphonicus Support Units", "from": [550,551,552,600]}
 
 	],
 	"upgradeConstraints":[
-		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[501,550]},
-		{"min":1, "max":1, "from":[7,8,9,10,11], "appliesTo":[501,550]},
-		{"min":2, "max":2, "from":[21,22,23,24,25,26], "appliesTo":[502,510,551]},
-		{"min":1, "max":1, "from":[27,28,29,30,31], "appliesTo":[502,510,551]},
-		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[504,511,552]},
-		{"max":1, "from":[100], "appliesTo":[504,511,552]},
-		{"max":1, "from":[101,102], "appliesTo":[502,510,551]}
+		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[550]},
+		{"min":1, "max":1, "from":[7,8,9,10,11], "appliesTo":[550]},
+		{"min":2, "max":2, "from":[21,22,23,24,25,26], "appliesTo":[501,511,551]},
+		{"min":1, "max":1, "from":[27,28,29,30,31], "appliesTo":[501,511,551]},
+		{"min":2, "max":2, "from":[41,42,43,44,45,46], "appliesTo":[552]},
+		{"max":1, "from":[100], "appliesTo":[552]},
+		{"max":1, "from":[101,102], "appliesTo":[501,511,551]}
 
 	]
 }
