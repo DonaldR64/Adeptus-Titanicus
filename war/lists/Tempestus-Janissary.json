@@ -1,13 +1,12 @@
 {
-	"id":"Axiom Battleline - Legio Tempestus",
+	"id":"Janissary Battleline - Legio Tempestus",
 	"version":"v1",
-	"notes":["Might of the Omnissiah: If a Titan from this maniple fails a Command Check when an order is issued to it in the Strategy Phase, orders can still be issued to the rest of the Titans in this maniple."],
+	"notes":["Close Support: If a Titan in this maniple activates during Movement, choose a Knight Banner within 6 inches which can activate immediately next."],
 	"by":"DR",
 	"sections":[
-		{"name":"Demi-Maniple", "formations":[
-			{"id":501,"name": "Warlord Titan","pts":385,"upgrades":[1,2,3,4,5,6,7,8,9,10,11,100,101]},
-			{"id":502,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31,102,103]},
-			{"id":504,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46,104]}
+		{"name":"Demi-Maniple (pick 3 Titans)", "formations":[
+			{"id":501,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31,102,103]},
+			{"id":502,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46,104]}
 		]},
 		{"name":"Full Maniple (pick up to 2 Titans)", "formations":[
 			{"id":510,"name": "Reaver Titan","pts":250,"upgrades":[21,22,23,24,25,26,27,28,29,30,31,102,103]},
@@ -65,25 +64,24 @@
 
 
 
+
 	],
 	"formationConstraints":[
 		{"min":1, "max": 1, "from":[501]},
-		{"min": 1, "max": 1, "from":[502]},
-		{"max": 1, "min": 1, "from":[504]},
-
+		{"min": 2, "max": 2, "from":[502]},
 		{"min": 0, "max": 1, "from":[510]},
 		{"min": 0, "max": 1, "from":[511]},
-		{"max":3, "perArmy":true, "name":"for Demi", "from":[501,502,504]},
+		{"max":3, "perArmy":true, "name":"for Demi", "from":[501,502]},
 		{"max":2, "perArmy":true, "name":"for Full", "from":[510,511]},
       	{"maxPercent": 50, "name": "Tempestus Support Units", "from": [550,551,552,600]}
 
 	],
 	"upgradeConstraints":[
-		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[501,550]},
-		{"min":1, "max":1, "from":[7,8,9,10,11,100,101], "appliesTo":[501,550]},
-		{"min":2, "max":2, "from":[21,22,23,24,25,26,102], "appliesTo":[502,510,551]},
-		{"min":1, "max":1, "from":[27,28,29,30,31,103], "appliesTo":[502,510,551]},
-		{"min":2, "max":2, "from":[41,42,43,44,45,46,104], "appliesTo":[504,511,552]}
+		{"min":2, "max":2, "from":[1,2,3,4,5,6], "appliesTo":[550]},
+		{"min":1, "max":1, "from":[7,8,9,10,11,100,101], "appliesTo":[550]},
+		{"min":2, "max":2, "from":[21,22,23,24,25,26,102], "appliesTo":[501,510,551]},
+		{"min":1, "max":1, "from":[27,28,29,30,31,103], "appliesTo":[501,510,551]},
+		{"min":2, "max":2, "from":[41,42,43,44,45,46,104], "appliesTo":[502,511,552]}
 
 	]
 }
