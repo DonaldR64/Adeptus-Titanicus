@@ -19,7 +19,24 @@
 			{"id":552,"name": "Warhound Titan","pts":180,"upgrades":[41,42,43,44,45,46,104]},
 			{"id":600,"name": "Knight Household","pts": 0}
 
+		]},
+
+		{"name": "Princeps Senioris Trait","formations":[
+			{"id": 800,"name": "Dominant Strategist","pts":0,"units": "Once per battle, at start of any phase, take First Player"},
+			{"id": 801,"name": "Iron-clad Tyrant","pts": 0,"units": "Once per turn, when issuing order to a Titan in the Demi-Maniple, reroll a Command Check"},
+			{"id": 802,"name": "Swift Killer","pts": 0,"units": "Once per round, before making an attack, the Princeps' Titan can turn 45°, but take -1 to Hit that phase."},
+			{"id": 803,"name": "Devoted Servant of the Machine","pts": 0,"units": "When making a Repair Roll for the Princeps' Titan, a single (lowest) D6 gets +1"},
+			{"id": 804,"name": "Favoured by Fortune", "pts": 0, "units": "Once per round, reroll a single D6 from a Hit or Save roll for the Princeps' Titan." },
+			{"id": 805,"name": "Will of Iron","pts": 0, "units": "The first time a Catastrophic Damage roll is made, roll a D10. If equal or higher than the result on the Catastrophic Damage roll, the Damage is ignored and has no effect."},
+
+			{"id": 810,"name": "Adamantium Resolve","pts": 0,"units": "Once per battle, the player can remove Shutdown orders from the Princeps' Titan."},
+			{"id": 811,"name": "Storm-Born","pts": 0,"units": "When a Titan in the maniple that has Charge orders moves in the Movement phase, it uses its Boosted Speed without having to push its reactor."},
+			{"id": 812,"name": "Defiant Warrior","pts": 0,"units": "If the Princeps' Titan's void shields have collapsed, Hit rolls of 1 for its attacks can be re-rolled."}
+
 		]}
+
+
+
 	],
 	"upgrades":[	
 		{"id":1, "name":"Arioch Titan Power Claw (Arm)","pts":25},
@@ -73,6 +90,9 @@
 
 		{"min": 0, "max": 1, "from":[510]},
 		{"min": 0, "max": 1, "from":[511]},
+
+		{"min": 1, "max": 1, "from":[800,801,802,803,804,805,810,811,812]},
+
 		{"max":3, "perArmy":true, "name":"for Demi", "from":[501,502,504]},
 		{"max":2, "perArmy":true, "name":"for Full", "from":[510,511]},
       	{"maxPercent": 50, "name": "Tempestus Support Units", "from": [550,551,552,600]}
