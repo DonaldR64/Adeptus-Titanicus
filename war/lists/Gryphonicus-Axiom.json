@@ -6,16 +6,17 @@
    "sections": [
       {"name": "Forward HQ Units", "formations": [
          {"id": 501, "name": "Forward HQ", "pts": 22, "units": "3 men (Senior Officer, Mortar Spotter), Gaz Jeep (BR 3)", "upgrades": [1,2]},
-         {"id": 502, "name": "VVS Air Control Officer", "pts": 26, "units": "2 men (Officer, Air Spotter 3+. ), Gaz Jeep (BR 1)", "upgrades": [3]},
+         {"id": 502, "name": "VVS Air Control Officer", "pts": 26, "units": "2 men (Officer, Air Spotter 3+), Gaz Jeep (BR 1)", "upgrades": [3]},
          {"id": 503, "name": "Motorcycle Dispatch Rider", "pts": 12, "units": "1 Man, Motorcycle (Dispatches) (BR 0)"},
          {"id": 504, "name": "Forward Signals Unit", "pts": 18, "units": "3 Men, Radio Truck or Van (Communications) (BR 1)"},
          {"id": 505, "name": "Comms Relay Team", "pts": 14, "units": "2 Men (Communications) (BR 0)"},
          {"id": 506, "name": "Wire Team", "pts": 7, "units": "2 Men (Wire Communications) (BR 0)"},
          {"id": 507, "name": "NKVD Officer", "pts": 26, "units": "3 Men, Gaz Jeep (Senior Officer, 'Fight Damn You!', Mortar Spotter) (BR D6)"}
       ]},
-      {"name":"Motorized Rifle Platoon","formations":[
-         {"id":510,"name":"Command Squad","pts":58,"units":"3 men (Officer, Mortar Spotter)","upgrades":[5,6]},
-         {"id":511,"name":"Rifle Squad","pts":58,"units":"8 men with 1 DP LMG","upgrades":[6,7]}
+      {"name":"Infantry Units","formations":[
+         {"id":510,"name":"Rifle Platoon","pts":58,"units":"Command Squad (3 men), 4 Rifle Squads (8 men)","upgrades":[5,6,7]}
+
+
       ]}
    ],
 
@@ -23,9 +24,16 @@
       {"id": 1, "name": "Upgrade Gaz Jeep to White Scout Car", "pts": 18},
       {"id": 2, "name": "Replace Men and Jeep with T-34/43", "pts": 27},
       {"id": 3, "name": "Upgrade Gaz Jeep to Medium Truck", "pts": 2},
-      {"id": 5, "name": "Jeep", "pts": 2},
-      {"id": 6, "name": "Anti-Tank Grenades", "pts": 5},
-      {"id": 7, "name": "Medium Truck", "pts": 4}
+
+      {"id": 5, "name": "mount Command Squad in a Jeep", "pts": 2},
+      {"id": 6, "name": "mount a Rifle Squad in a Medium Truck ", "pts": 4},
+      {"id": 7, "name": "equip a Command or Rifle Squad with AT Grenades", "pts": 5},
+      {"id": 8, "name": "replace all of a Rifle Squads rifles with SMGs", "pts": 0}
+
+
+
+
+
 
       ],
 
@@ -33,8 +41,7 @@
       {"max": 1, "perArmy": true, "from": [501]},
       {"max": 1, "perArmy": true, "from": [502]},
       {"max": 1, "perArmy": true, "from": [507]},
-      {"min": 1, "max": 1, "from": [510]},
-      {"min": 4, "max": 4, "from": [511]}
+      {"min": 1, "from": [510]}
 
 
 
@@ -46,9 +53,9 @@
       {"max": 1,"from": [2], "appliesTo": [501]},
       {"max": 1,"from": [3], "appliesTo": [502]},
       {"max": 1,"from": [5], "appliesTo": [510]},
-      {"max": 1,"from": [6], "appliesTo": [510,511]},      
-      {"max": 1,"from": [7], "appliesTo": [511]}
-
+      {"max": 4,"from": [6], "appliesTo": [510]},      
+      {"max": 5,"from": [7], "appliesTo": [510]},      
+      {"max": 4,"from": [8], "appliesTo": [510]}     
 
    ]
 
