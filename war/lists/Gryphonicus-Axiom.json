@@ -184,11 +184,23 @@
       {"max": 1, "perArmy": true, "from": [546]},
       {"max": 1, "perArmy": true, "from": [552]},
 
+      {"max": 1, "name": "Logistics","from": [560,561,562], "forEach": [501,502,503,504,505,506,507],"name2": "Forward HQ Units"},
+      {"max": 1, "name": "Additional Fire Support","from": [580,581,582,583,584,585,586,587,588], "forEach": [501,502,503,504,505,506,507],"name2": "Forward HQ Units"},
+
+      {"max": 4, "name": "Recon Support","from": [540,541,542,543,544,545,546,547], "forEach": [510],"name2": "Rifle Platoons"},
+      {"max": 4, "name": "Engineering Support","from": [550,551,552,553,554], "forEach": [510],"name2": "Rifle Platoons"},
+      {"max": 4, "name": "Logistics Support","from": [560,561,562], "forEach": [510],"name2": "Rifle Platoons"},
+      {"max": 4, "name": "Specialist Support","from": [570,571,572,573,574], "forEach": [510],"name2": "Rifle Platoonss"},
+      {"max": 4, "name": "Infantry Support","from": [511,512,513,514,515,516], "forEach": [510],"name2": "Rifle Platoons"},
+
+      {"max": 1, "name": "Recon Support","from": [540,541,542,543,544,545,546,547], "forEach": [511,512,513,514,515,516,517,518],"name2": "Infantry Units"},
+      {"max": 1, "name": "Engineering Support","from": [550,551,552,553,554], "forEach": [511,512,513,514,515,516,517,518],"name2": "Infantry Units"},
+      {"max": 1, "name": "Logistics Support","from": [560,561,562], "forEach": [511,512,513,514,515,516,517,518],"name2": "Infantry Units"},
+      {"max": 1, "name": "Specialist Support","from": [570,571,572,573,574], "forEach": [511,512,513,514,515,516,517,518],"name2": "Infantry Units"},
+      {"max": 1, "name": "Infantry Support","from": [511,512,513,514,515,516], "forEach": [511,512,513,514,515,516,517,518],"name2": "Infantry Units"}
 
 
 
-
-      {"max": 4, "name": "Infantry Support","from": [511,512,513,514,515,516], "forEach": [510],"name2": "Rifle Platoons"}
 
       ],
 
@@ -237,13 +249,13 @@
       {"max": 1,"from": [63], "appliesTo": [573,574]},
       {"max": 1,"from": [64], "appliesTo": [573]},
 
-      {"max": 1,"from": [70,71,72,73,74], "appliesTo": [570]},
+      {"min": 1,"max": 1,"from": [70,71,72,73,74], "appliesTo": [570]},
 
-      {"max": 1,"from": [75,76], "appliesTo": [571]},
+      {"min": 1,"max": 1,"from": [75,76], "appliesTo": [571]},
 
-      {"max": 1,"from": [80,81], "appliesTo": [573]},
+      {"min": 1,"max": 1,"from": [80,81], "appliesTo": [573]},
 
-      {"max": 1,"from": [90,91,92], "appliesTo": [580]}
+      {"min": 1,"max": 1,"from": [90,91,92], "appliesTo": [580]}
 
 
 
