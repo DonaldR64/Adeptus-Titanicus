@@ -13,17 +13,24 @@
          {"id": 506, "name": "Wire Team", "pts": 7, "units": "2 Men (Wire Communications) (0-i)"},
          {"id": 507, "name": "NKVD Officer", "pts": 26, "units": "3 Men, Gaz Jeep (Senior Officer, 'Fight Damn You!', Mortar Spotter) (d6-r)"}
       ]},
-      {"name":"Infantry Units","formations":[
+      {"name":"Infantry Platoons & Squads","formations":[
          {"id":510,"name":"Motorised Rifle Platoon","pts":58,"units":"Command Squad (3 men, Officer, Mortar Spotter), 4 Rifle Squads (8 men with 1 LMG) (5-i)","upgrades":[5,6,7]},
+         {"id":517,"name":"Motorised Rifle Squad","pts": 14,"units":"8 men with 1 LMG (1-i)","upgrades":[6,7,8]},
+         {"id":518,"name":"Tank Rider Squad","pts": 12,"units":"8 men all with SMGs (1-i)","upgrades":[7]}
+      ]},
+      {"name":"Infantry Support - 4 per Platoon","formations":[
          {"id":511,"name":"Maxim Machine Gun","pts": 18,"units":"3 men with a Maxim MG (1-i)","upgrades":[10]},
          {"id":512,"name":"Light Mortar Team","pts": 12,"units":"2 men with 50mm Mortar (1-i)","upgrades":[10]},
          {"id":513,"name":"AT Rifle Team","pts": 14,"units":"2 men with AT Rifle (1-i)"},
          {"id":514,"name":"Anti-Tank Gun","pts": 18,"units":"45mmL46 gun with 3 crew (1-i)","upgrades":[10,11,12,13]},
          {"id":515,"name":"Infantry Gun","pts": 19,"units":"76.2mm Infantry gun with 3 crew (1-i)","upgrades":[10,13,14]},
-         {"id":516,"name":"AA DshK Machine Gun Team","pts": 24,"units":"3 men with a DshK MG (1-i)"},
-         {"id":517,"name":"Motorised Rifle Squad","pts": 14,"units":"8 men with 1 LMG (1-i)","upgrades":[6,7,8]},
-         {"id":518,"name":"Tank Rider Squad","pts": 12,"units":"8 men all with SMGs (1-i)","upgrades":[7]}
-      ]}
+         {"id":516,"name":"AA DshK Machine Gun Team","pts": 24,"units":"3 men with a DshK MG (1-i)"}
+      ]},
+
+
+
+
+
    ],
 
    "upgrades": [
@@ -52,17 +59,9 @@
       {"max": 1, "perArmy": true, "from": [501]},
       {"max": 1, "perArmy": true, "from": [502]},
       {"max": 1, "perArmy": true, "from": [507]},
-      {"max": 1, "from": [511], "forEach": [510]},
-      {"max": 1, "from": [512], "forEach": [510]},
-      {"max": 1, "from": [513], "forEach": [510]},
-      {"max": 1, "from": [514], "forEach": [510]},
-      {"max": 1, "from": [515], "forEach": [510]},
-      {"max": 1, "from": [516], "forEach": [510]},
-      {"max": 1, "from": [517], "forEach": [510]},
-      {"max": 1, "from": [518], "forEach": [510]}
+      {"min": 1, "from": [510]},
 
-
-
+      {"max": 4, "from": [511,512,513,514,515,516], "forEach": [510]}
 
       ],
 
