@@ -70,7 +70,7 @@
       {"max": 1, "perArmy": true, "from": [507]},
       {"min": 1, "from": [510]},
 
-      {"max": 4, "from": [511,512,513,514,515,516], "forEach": [510],"name2": "Infantry Support"}
+      {"max": 4, "name": "Infantry Support","from": [511,512,513,514,515,516], "forEach": [510],"name2": "Rifle Platoons"}
 
       ],
 
