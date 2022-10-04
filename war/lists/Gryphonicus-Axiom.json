@@ -28,7 +28,7 @@
       ]},
       {"name":"Tank Units","formations":[
          {"id":520,"name":"T-34 Company","pts": 350,"units":"1 T34/43 (Officer) & 9 T34/43s (30-r)"},
-         {"id":521,"name":"T-34 Platoon","pts": 100,"units":"3 T34/43s (9-r)"},
+         {"id":521,"name":"T-34 Platoon","pts": 100,"units":"3 T34/43s (9-r)"}
 
 
 
