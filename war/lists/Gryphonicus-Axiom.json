@@ -1,8 +1,8 @@
 {
-   "id": "Soviet Tank/Mechanized Corps",
+   "id": "Soviet Tank/Mechanized Corps 1943",
    "version": "Battlegroup Kursk",
    "by": "Octagon",
-   "notes":["Blank"],
+   "notes":["Squad Level Game: 1 Infantry Squad up to 2 Infantry Platoons[br]Platoon Level Game: 1 Infantry Platoon up to 4 Infantry Platoons[br]Command Level Game: 2 Infantry Platoons up to 6 Infantry Platoons[br]Battalion Level Game: 3 Infantry Platoons up to 9 Infantry Platoons"],
    "sections": [
       {"name": "Forward HQ Units", "formations": [
          {"id": 501, "name": "Forward HQ", "pts": 22, "units": "3 men (Senior Officer, Mortar Spotter), Gaz Jeep (3-r)", "upgrades": [1,2]},
@@ -25,7 +25,7 @@
          {"id":514,"name":"Anti-Tank Gun","pts": 18,"units":"45mmL46 gun with 3 crew (1-i)","upgrades":[10,11,12,13]},
          {"id":515,"name":"Infantry Gun","pts": 19,"units":"76.2mm Infantry gun with 3 crew (1-i)","upgrades":[10,13,14]},
          {"id":516,"name":"AA DshK Machine Gun Team","pts": 24,"units":"3 men with a DshK MG (1-i)"}
-      ]},
+      ]}
 
 
 
