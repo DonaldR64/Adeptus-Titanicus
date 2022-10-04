@@ -30,7 +30,7 @@
          {"id":520,"name":"T-34 Company","pts": 350,"units":"1 T-34/43 (Officer) & 9 T34/43s (30-r)"},
          {"id":521,"name":"T-34 Platoon","pts": 100,"units":"3 T-34/43s (9-r)"},
          {"id":522,"name":"Light Tank Platoon","pts": 0},
-         {"id":523,"name":"SU-76 Battery","pts": 75,"units":"3 SU-76s (6-r) (Restricted)"},
+         {"id":523,"name":"SU-76 Battery (Restricted)","pts": 75,"units":"3 SU-76s (6-r)"},
          {"id":524,"name":"T-34","pts": 40,"units":"1 T-34/43 (3-r)"},
          {"id":525,"name":"Light Tank","pts": 0},
          {"id":526,"name":"SU-76","pts": 30,"units":"1 SU-76 (2-r)"}
