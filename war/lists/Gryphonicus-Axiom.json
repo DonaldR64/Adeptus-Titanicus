@@ -18,7 +18,7 @@
          {"id":517,"name":"Motorised Rifle Squad","pts": 14,"units":"8 men with 1 LMG (1-i)","upgrades":[6,7,8]},
          {"id":518,"name":"Tank Rider Squad","pts": 12,"units":"8 men all with SMGs (1-i)","upgrades":[7]}
       ]},
-      {"name":"Infantry Support - 4 per Platoon","formations":[
+      {"name":"Infantry Support - 4 per Infantry Platoon","formations":[
          {"id":511,"name":"Maxim Machine Gun","pts": 18,"units":"3 men with a Maxim MG (1-i)","upgrades":[10]},
          {"id":512,"name":"Light Mortar Team","pts": 12,"units":"2 men with 50mm Mortar (1-i)","upgrades":[10]},
          {"id":513,"name":"AT Rifle Team","pts": 14,"units":"2 men with AT Rifle (1-i)"},
@@ -34,9 +34,16 @@
          {"id":524,"name":"T-34","pts": 40,"units":"1 T-34/43 (3-r)"},
          {"id":525,"name":"Light Tank","pts": 0},
          {"id":526,"name":"SU-76","pts": 30,"units":"1 SU-76 (2-r)"}
+      ]},
+
+      {"name":"Artillery Units","formations":[
+         {"id":530,"name":"Forward Observer Team","pts": 16,"units":"2 men, Gaz Jeep (Artillery Spotter+) (1-i)","upgrades":[25]},
+         {"id":531,"name":"Guards Mortar Battery","pts": 0},
+         {"id":532,"name":"Off Table Artillery","pts": 125,"units":"2 BM-13 Katyushas (0 BR)"},
+         {"id":533,"name":"Mortar Battery","pts": 0,"upgrades": [9]},
+         {"id":534,"name":"Heavy Mortar Battery","pts": 0,"upgrades": [9]},
+         {"id":535,"name":"Off Table Mortar Fire","pts": 0}
       ]}
-
-
 
 
 
@@ -52,6 +59,8 @@
       {"id": 7, "name": "equip a Command or Rifle Squad with AT Grenades", "pts": 5},
       {"id": 8, "name": "replace all of a Rifle Squads rifles with SMGs", "pts": 0},
 
+
+      {"id": 9, "name": "add a 3 man Loader Team to a Mortar Team", "pts": 10},
       {"id": 10, "name": "add a 3 man Loader Team", "pts": 10},
       {"id": 11, "name": "Upgrade AT gun to 45mmL66", "pts": 8},
       {"id": 12, "name": "add Komsomolyets Tractor Tow", "pts": 8},
@@ -62,8 +71,21 @@
       {"id": 21, "name": "3 T-70s (6-r)", "pts": 65},
 
       {"id": 22, "name": "T-60s (2-r)", "pts": 20},
-      {"id": 23, "name": "T-70s (2-r)", "pts": 25}
+      {"id": 23, "name": "T-70s (2-r)", "pts": 25},
 
+      {"id": 25, "name": "upgrade Jeep to Bren Carrier", "pts": 2},
+
+      {"id": 30, "name": "2 BM-13 Katyushas (2-i)", "pts": 100},
+      {"id": 31, "name": "2 BM-8-13 Katyushas (2-i)", "pts": 120},
+
+      {"id": 32, "name": "2 82mm Mortars with 3 crew each (2-i)", "pts": 44},
+      {"id": 33, "name": "3 82mm Mortars with 3 crew each (3-i)", "pts": 66},
+
+      {"id": 34, "name": "2 120mm Mortars with 3 crew each (2-i)", "pts": 59},
+      {"id": 35, "name": "3 120mm Mortars with 3 crew each (3-i)", "pts": 87},
+
+      {"id": 36, "name": "2 82mm Mortars (0 BR)", "pts": 54},
+      {"id": 37, "name": "2 120mm Mortars (0 BR)", "pts": 72}
 
 
       ],
@@ -86,15 +108,21 @@
       {"max": 4,"from": [6], "appliesTo": [510,517]},      
       {"max": 5,"from": [7], "appliesTo": [510,517,518]},      
       {"max": 4,"from": [8], "appliesTo": [510,517]},     
-
+      {"max": 3,"from": [9], "appliesTo": [533]},     
       {"max": 1,"from": [10], "appliesTo": [511,512,514,515]},     
       {"max": 1,"from": [11], "appliesTo": [514]},     
       {"max": 1,"from": [12], "appliesTo": [514]},     
       {"max": 1,"from": [13], "appliesTo": [514,515]},     
       {"max": 1,"from": [14], "appliesTo": [515]},     
 
-      {"max": 1,"from": [20,21], "appliesTo": [522]},
-      {"max": 1,"from": [22,23], "appliesTo": [525]}
+      {"min": 1,"max": 1,"from": [20,21], "appliesTo": [522]},
+      {"min": 1,"max": 1,"from": [22,23], "appliesTo": [525]},
+
+      {"max": 1,"from": [25], "appliesTo": [530]},     
+
+      {"min": 1,"max": 1,"from": [32,33], "appliesTo": [533]},
+      {"min": 1,"max": 1,"from": [34,35], "appliesTo": [534]},
+      {"min": 1,"max": 1,"from": [36,37], "appliesTo": [535]}
 
 
 
