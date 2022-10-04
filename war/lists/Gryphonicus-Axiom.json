@@ -2,7 +2,7 @@
    "id": "Soviet Tank/Mechanized Corps 1943",
    "version": "Battlegroup Kursk",
    "by": "Octagon",
-   "notes":["Squad Level Game: 1 Infantry Squad up to 2 Infantry Platoons<br>Platoon Level Game: 1 Infantry Platoon up to 4 Infantry Platoons<br>Command Level Game: 2 Infantry Platoons up to 6 Infantry Platoons<br>Battalion Level Game: 3 Infantry Platoons up to 9 Infantry Platoons"],
+   "notes":["Squad Level Game: 1 Infantry Squad up to 2 Infantry Platoons, 2 Restricted Units<br>Platoon Level Game: 1 Infantry Platoon up to 4 Infantry Platoons, 3 Restricted Units<br>Command Level Game: 2 Infantry Platoons up to 6 Infantry Platoons, 4 Restricted Units<br>Battalion Level Game: 3 Infantry Platoons up to 9 Infantry Platoons, 5 Restricted Units"],
    "sections": [
       {"name": "Forward HQ Units", "formations": [
          {"id": 501, "name": "Forward HQ", "pts": 22, "units": "3 men (Senior Officer, Mortar Spotter), Gaz Jeep (3-r)", "upgrades": [1,2]},
@@ -27,13 +27,13 @@
          {"id":516,"name":"AA DshK Machine Gun Team","pts": 24,"units":"3 men with a DshK MG (1-i)"}
       ]},
       {"name":"Tank Units","formations":[
-         {"id":520,"name":"T-34 Company","pts": 350,"units":"1 T34/43 (Officer) & 9 T34/43s (30-r)"},
-         {"id":521,"name":"T-34 Platoon","pts": 100,"units":"3 T34/43s (9-r)"}
-
-
-
-
-
+         {"id":520,"name":"T-34 Company","pts": 350,"units":"1 T-34/43 (Officer) & 9 T34/43s (30-r)"},
+         {"id":521,"name":"T-34 Platoon","pts": 100,"units":"3 T-34/43s (9-r)"},
+         {"id":522,"name":"Light Tank Platoon","pts": 0},
+         {"id":523,"name":"SU-76 Battery","pts": 75,"units":"3 SU-76s (6-r) (Restricted)"},
+         {"id":524,"name":"T-34","pts": 40,"units":"1 T-34/43 (3-r)"},
+         {"id":525,"name":"Light Tank","pts": 0},
+         {"id":526,"name":"SU-76","pts": 30,"units":"1 SU-76 (2-r)"}
       ]}
 
 
@@ -56,9 +56,13 @@
       {"id": 11, "name": "Upgrade AT gun to 45mmL66", "pts": 8},
       {"id": 12, "name": "add Komsomolyets Tractor Tow", "pts": 8},
       {"id": 13, "name": "add Medium Truck Tow", "pts": 4},
-      {"id": 14, "name": "Horse and Limber Truck", "pts": 4}
+      {"id": 14, "name": "Horse and Limber Truck", "pts": 4},
 
+      {"id": 20, "name": "3 T-60s (6-r)", "pts": 50},
+      {"id": 21, "name": "3 T-70s (6-r)", "pts": 65},
 
+      {"id": 22, "name": "T-60s (2-r)", "pts": 20},
+      {"id": 23, "name": "T-70s (2-r)", "pts": 25}
 
 
 
@@ -87,7 +91,11 @@
       {"max": 1,"from": [11], "appliesTo": [514]},     
       {"max": 1,"from": [12], "appliesTo": [514]},     
       {"max": 1,"from": [13], "appliesTo": [514,515]},     
-      {"max": 1,"from": [14], "appliesTo": [515]}     
+      {"max": 1,"from": [14], "appliesTo": [515]},     
+
+      {"max": 1,"from": [20,21], "appliesTo": [522]},
+      {"max": 1,"from": [22,23], "appliesTo": [525]}
+
 
 
 
