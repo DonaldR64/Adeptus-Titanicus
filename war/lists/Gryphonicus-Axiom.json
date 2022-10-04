@@ -2,7 +2,7 @@
    "id": "Soviet Tank/Mechanized Corps 1943",
    "version": "Battlegroup Kursk",
    "by": "Octagon",
-   "notes":["Squad Level Game: 1 Infantry Squad up to 2 Infantry Platoons, 2 Restricted Units<br>Platoon Level Game: 1 Infantry Platoon up to 4 Infantry Platoons, 3 Restricted Units<br>Command Level Game: 2 Infantry Platoons up to 6 Infantry Platoons, 4 Restricted Units<br>Battalion Level Game: 3 Infantry Platoons up to 9 Infantry Platoons, 5 Restricted Units"],
+   "notes":["Platoon Level Game: 1 Infantry Platoon up to 4 Infantry Platoons, 3 Restricted Units<br>Command Level Game: 2 Infantry Platoons up to 6 Infantry Platoons, 4 Restricted Units<br>Battalion Level Game: 3 Infantry Platoons up to 9 Infantry Platoons, 5 Restricted Units"],
    "sections": [
       {"name": "Forward HQ Units", "formations": [
          {"id": 501, "name": "Forward HQ", "pts": 22, "units": "3 men (Senior Officer, Mortar Spotter), Gaz Jeep (3-r)", "upgrades": [1,2]},
@@ -76,8 +76,19 @@
          {"id":572,"name":"AA Vehicle (Restricted)","pts": 28,"units": "Gaz Truck with Quad Maxim MGs (1-i)"},
          {"id":573,"name":"Heavy AT Gun","pts": 0,"upgrades": [62,63,64]},
          {"id":574,"name":"Towed AA Gun","pts": 36,"units": "37mm AA Gun with 3 Crew (1-i)","upgrades": [62,63]}
-      ]}
+      ]},
 
+      {"name":"Additional Fire Support (also see Book) (all 0 BR)","formations":[
+         {"id":580,"name":"Off-Table Artillery Support Request","pts": 0},
+         {"id":581,"name":"Pre-Registered Target Point","pts": 10},
+         {"id":582,"name":"Counter-Battery Fire Mission","pts": 10},
+         {"id":583,"name":"Timed 122mm Barrage","pts": 20},
+         {"id":584,"name":"Timed 152mm Barrage","pts": 30},
+         {"id":585,"name":"Timed Katyusha Barrage","pts": 25},
+         {"id":586,"name":"Timed IL-2 Air Strike","pts": 10},
+         {"id":587,"name":"Timed PE-2 Air Strike","pts": 20},
+         {"id":588,"name":"Timed IL-4 Air Strike","pts": 25}
+      ]}
 
 
 
@@ -155,7 +166,13 @@
       {"id": 76, "name": "SU-152 (3-4)", "pts": 52},
 
       {"id": 80, "name": "76.2mm Zis3 AT Gun with 3 crew (2-i)", "pts": 43},
-      {"id": 81, "name": "57mmL73 Zis2 AT Gun with 3 crew (2-i)", "pts": 43}
+      {"id": 81, "name": "57mmL73 Zis2 AT Gun with 3 crew (2-i)", "pts": 43},
+
+      {"id": 90, "name": "3rd Target Priority (5+)", "pts": 5},
+      {"id": 91, "name": "2nd Target Priority (4+)", "pts": 10},
+      {"id": 92, "name": "1st Target Priority (2+)", "pts": 20}
+
+
 
       ],
 
@@ -219,8 +236,13 @@
       {"max": 1,"from": [63], "appliesTo": [573,574]},
       {"max": 1,"from": [64], "appliesTo": [573]},
 
-      {"max": 1,"from": [80,81], "appliesTo": [573]}
+      {"max": 1,"from": [70,71,72,73,74], "appliesTo": [570]},
 
+      {"max": 1,"from": [75,76], "appliesTo": [571]},
+
+      {"max": 1,"from": [80,81], "appliesTo": [573]},
+
+      {"max": 1,"from": [90,91,92], "appliesTo": [580]}
 
 
 
