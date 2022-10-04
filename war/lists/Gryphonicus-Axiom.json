@@ -14,7 +14,7 @@
          {"id": 507, "name": "NKVD Officer", "pts": 26, "units": "3 Men, Gaz Jeep (Senior Officer, 'Fight Damn You!', Mortar Spotter) (d6-r)"}
       ]},
       {"name":"Infantry Units","formations":[
-         {"id":510,"name":"Motorised Rifle Platoon","pts":58,"units":"Command Squad (3 men, Officer, Mortar Spotter), 4 Rifle Squads (8 men with 1 LMG) (5-i)","upgrades":[5,6,7]}
+         {"id":510,"name":"Motorised Rifle Platoon","pts":58,"units":"Command Squad (3 men, Officer, Mortar Spotter), 4 Rifle Squads (8 men with 1 LMG) (5-i)","upgrades":[5,6,7]},
          {"id":511,"name":"Maxim Machine Gun","pts": 18,"units":"3 men with a Maxim MG (1-i)","upgrades":[10]},
          {"id":512,"name":"Light Mortar Team","pts": 12,"units":"2 men with 50mm Mortar (1-i)","upgrades":[10]},
          {"id":513,"name":"AT Rifle Team","pts": 14,"units":"2 men with AT Rifle (1-i)"},
